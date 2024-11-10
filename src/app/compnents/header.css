@@ -1,0 +1,297 @@
+.header-container {
+  background-color: #507687; /* Dark Green */
+  color: #fff;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img{
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+}
+.headerh1{
+  font-style: oblique;
+  margin-right: 4cm;
+}
+
+  /* Desktop navigation */
+.nav-desktop {
+  display: none;
+}
+
+.nav-list {
+  display: flex;
+  gap: 5rem; /* Space between nav items */
+  margin-right: 4cm;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.nav-item:hover {
+  color: #C0EBA6; /* Light Green */
+}
+
+/* Mobile toggle button */
+.menu-toggle {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+/* Mobile navigation menu */
+.header {
+  position: relative; /* Ensures that positioned elements inside are relative to this */
+  z-index: 1; /* Keeps the header on top */
+}
+
+.nav-mobile {
+  display: none;
+  flex-direction: column; /* Stack items vertically */
+  gap: 3rem; /* Spacing between items */
+  margin-top: 4rem;
+  background-color: #b3b5b6; /* Background color */
+  padding: 1rem; /* Adds padding for spacing */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Light shadow */
+  position: fixed; /* Allows the nav to overlay and stay fixed */
+  top: 60px; /* Adjust based on your header height */
+  left: 0;
+  right: 0;
+  z-index: 1000; /* Ensure it's above other elements */
+  line-height: 1cm;
+  text-align: center;
+}
+
+.nav-open {
+  display: flex;
+}
+
+.nav-closed {
+  display: none;
+}
+
+/* Responsive styling */
+@media (min-width: 1024px) {
+  .nav-desktop {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: none;
+  }
+
+  .nav-mobile {
+    display: none;
+  }
+}.header-container {
+    background-color: #507687;; /* Dark Green */
+  color: #fff;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img{
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+}
+.headerh1{
+  font-style: oblique;
+  margin-right: 4cm;
+}
+
+  /* Desktop navigation */
+.nav-desktop {
+  display: none;
+}
+
+.nav-list {
+  display: flex;
+  gap: 5rem; /* Space between nav items */
+  margin-right: 4cm;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.nav-item:hover {
+  color: #C0EBA6; /* Light Green */
+}
+
+/* Mobile toggle button */
+.menu-toggle {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+  
+}
+
+/* Mobile navigation menu */
+.header {
+  position: relative; /* Ensures that positioned elements inside are relative to this */
+  z-index: 1; /* Keeps the header on top */
+}
+
+.nav-mobile {
+  display: none;
+  flex-direction: column; /* Stack items vertically */
+  gap: 3rem; /* Spacing between items */
+  margin-top: 4rem;
+  background-color: #b3b5b6; /* Background color */
+  padding: 1rem; /* Adds padding for spacing */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Light shadow */
+  position: fixed; /* Allows the nav to overlay and stay fixed */
+  top: 60px; /* Adjust based on your header height */
+  left: 0;
+  right: 0;
+  z-index: 1000; /* Ensure it's above other elements */
+  line-height: 1cm;
+  text-align: center;
+}
+
+.nav-open {
+  display: flex;
+}
+
+.nav-closed {
+  display: none;
+}
+
+/* Responsive styling */
+@media (min-width: 1024px) {
+  .nav-desktop {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: none;
+  }
+
+  .nav-mobile {
+    display: none;
+  }
+}.header-container {
+   background-color: #507687;; /* Dark Green */
+  color: #fff;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img{
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+}
+.headerh1{
+  font-style: oblique;
+  margin-right: 4cm;
+}
+
+  /* Desktop navigation */
+.nav-desktop {
+  display: none;
+}
+
+.nav-list {
+  display: flex;
+  gap: 5rem; /* Space between nav items */
+  margin-right: 4cm;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.nav-item:hover {
+  color: #C0EBA6;  
+}
+
+
+.menu-toggle {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+ 
+}
+
+
+.header {
+  position: relative; 
+  z-index: 1;
+}
+
+.nav-mobile {
+  display: none;
+  flex-direction: column;
+  gap: 3rem; 
+  margin-top: 4rem;
+  background-color: #b3b5b6; 
+  padding: 1rem; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+  position: fixed; 
+  top: 60px;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  line-height: 1cm;
+  text-align: center;
+}
+
+.nav-open {
+  display: flex;
+}
+
+.nav-closed {
+  display: none;
+}
+
+/* Responsive styling */
+@media (min-width: 1024px) {
+  .nav-desktop {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: none;
+  }
+
+  .nav-mobile {
+    display: none;
+  }
+}

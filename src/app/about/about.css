@@ -1,0 +1,97 @@
+.about-me {
+    border: 2px solid #FCFAEE;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    animation: fadeInRight 0.5s;
+    
+}
+
+.about-title {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+}
+
+.about-description {
+    font-size: 1.25rem;
+    margin-top: 10px;
+}
+
+.skills-section {
+    border: 2px solid #FCFAEE;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    animation: fadeInLeft 0.5s;
+}
+
+.skills-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+.skills-list {
+    margin-bottom: 20px;
+}
+
+.skill-bar {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.skill-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.skill-progress {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    height: 24px;
+    overflow: hidden;
+}
+
+.skill-percentage {
+    height: 100%;
+    background-color: green; /* Change this color dynamically based on percentage if needed */
+    color: white;
+    text-align: center;
+    line-height: 24px; /* Center text vertically */
+    transition: width 0.5s;
+}
+
+.cv-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cv-message {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.cv-link {
+    display: inline-block;
+    background-color: #B8001F;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.cv-link:hover {
+    background-color: #FCCD2A; /* Change on hover */
+}
+

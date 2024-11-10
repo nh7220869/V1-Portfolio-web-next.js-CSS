@@ -1,0 +1,119 @@
+/* animations.css */
+
+/* Keyframes for Animations */
+@keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes fadeInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes fadeInBottom {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeInTop {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes scale {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes spinOnce {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* Animation Classes */
+  .bounce {
+    animation: bounce 1s infinite;
+  }
+  
+  .fade-in {
+    animation: fadeIn 1s ease-in forwards;
+  }
+  
+  .fade-in-left {
+    animation: fadeInLeft 1s ease-in forwards;
+  }
+  
+  .fade-in-right {
+    animation: fadeInRight 1s ease-in forwards;
+  }
+  
+  .fade-in-bottom {
+    animation: fadeInBottom 1s ease-in forwards;
+  }
+  
+  .fade-in-top {
+    animation: fadeInTop 1s ease-in forwards;
+  }
+  
+  .scale {
+    animation: scale 1s infinite;
+  }
+  
+  .spin-once {
+    animation: spinOnce 1s linear 1;
+  }
+  

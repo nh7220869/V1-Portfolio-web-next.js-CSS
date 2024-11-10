@@ -1,0 +1,82 @@
+body {
+    background-color: #f8f8f8;;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    padding: 3rem 2.5rem; /* equivalent to px-10 py-12 */
+    min-height: 100vh;
+    background-color: #f8f8f8;;
+  }
+  
+  .header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5rem; /* equivalent to text-4xl */
+    margin-bottom: 3rem; /* equivalent to mb-12 */
+  }
+  
+  .header h1 {
+    background-color: #384B70;
+    color: #FCFAEE;
+    animation: fadeInRight 0.5s; /* Replace with your animation */
+    font-size: larger;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 2.5rem; /* equivalent to gap-10 */
+  }
+  
+  .project-card {
+    background-color:#D1BB9E;
+    color: #4a4a4a; /* equivalent to text-gray-700 */
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* equivalent to shadow-lg */
+    border-radius: 0.5rem; /* equivalent to rounded-lg */
+    overflow: hidden;
+    transition: transform 0.3s; /* equivalent to transition duration-300 */
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05); /* equivalent to hover:scale-105 */
+  }
+  
+  .project-card h2 {
+    font-size: 1.5rem; /* equivalent to text-2xl */
+    font-weight: 600; /* equivalent to font-semibold */
+    padding: 1rem 0; /* equivalent to py-4 */
+    color: #B8001F;
+  }
+  
+  .project-card img {
+    width: 100%;
+    height: 16rem; /* equivalent to h-64 */
+    object-fit: cover; /* equivalent to object-cover */
+  }
+  
+  .project-link {
+    padding: 1.5rem; /* equivalent to p-6 */
+    color: #B8001F;
+    font-weight: 600; /* equivalent to font-semibold */
+  }
+  
+  .project-link:hover {
+    text-decoration: underline;
+    color: #FCCD2A; /* equivalent to hover:text-yellow-500 */
+  }
+  
+  /* Add your custom animations here */
+  @keyframes fadeInRight {
+    from {
+      opacity: 0;
+      transform: translateX(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
